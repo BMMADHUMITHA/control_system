@@ -5,9 +5,11 @@ The next step focuses on the feedback process and measurement devices
 The next step investigates the effects of an accelerometer on the stability and performance of the automated steering control system.
 
 One of the basic problems in automated steering control is a lane change maneuver as shown in Figure 1
+
 <img width="452" alt="image" src="https://github.com/BMMADHUMITHA/control_system/assets/134037700/da02b039-7f08-429c-8489-85920c4c817c">
 
 Measurements of the vehicle’s lateral position during the maneuver will be computed from the lateral acceleration measured by the accelerometer
+
 <img width="311" alt="image" src="https://github.com/BMMADHUMITHA/control_system/assets/134037700/8dace60b-ff7a-494f-83b5-d0f84a17a482">
 
 <img width="449" alt="image" src="https://github.com/BMMADHUMITHA/control_system/assets/134037700/d6192cd4-71b1-4d58-a1fc-921520a8c6bb">
@@ -26,6 +28,7 @@ The specifications on the control system design can be divided into three catego
 3. Disturbance rejection: The steady-state error for a unit disturbance must be minimized.
 
 # DESIGN PROJECT 1
+
 <img width="429" alt="image" src="https://github.com/BMMADHUMITHA/control_system/assets/134037700/76d4148e-16c8-475e-8ad5-470ab4a00978">
 
 In this case, the disturbance is not included, ideal feedback of the lateral position is assumed, and the actuator dynamics are neglected. 
@@ -49,6 +52,7 @@ parameters such as size, cost, and availability as well as the propagation of me
 position response. The later situation can cause discomfort to the passengers and excite unmodeled dynamics.
 
 # DESIGN PROJECT 3
+
 <img width="281" alt="image" src="https://github.com/BMMADHUMITHA/control_system/assets/134037700/145f8fef-641b-479d-bfab-bcc3e2a80c07">
 
 This design project builds upon the results on the first two design projects. The design of an automated steering controller is considered for the scenario presented.  The root locus techniques are used to determine the desired location of the dominant closed loop poles. This exercise demonstrates that useful information can be obtained from the root locus sketch without resorting to computer simulation. Specifically, the root locus sketch
